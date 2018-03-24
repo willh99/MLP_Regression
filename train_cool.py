@@ -62,13 +62,13 @@ plt.xlabel('iterations')
 plt.title('Varying Hidden Layer Sizes')
 
 decay_opts = [0.01, 0.001, 0.001]
-decay_data = test_networks_on_decay(decay_opts, my_data, y_max)
+"""decay_data = test_networks_on_decay(decay_opts, my_data, y_max)
 
 plt.figure(2)
 plt.plot(epochs, decay_data[0]['errors'], 'r', epochs, decay_data[1]['errors'], 'b', epochs, decay_data[2]['errors'], 'g')
 plt.ylabel('error')
 plt.xlabel('iterations')
-plt.title('Varying Decay Amounts')
+plt.title('Varying Decay Amounts')"""
 
 plt.figure(0)
 plt.show()
