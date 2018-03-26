@@ -12,7 +12,7 @@ The [train.py](train.py) file contains an aptly named function, load_data2(), to
 
 Contained within the `benchmarks` directory are a series of scripts used for the collection of performance counters and power data from the operating system.  This data is what is fed to the neural network and the regression models.
 
-*Note that `perf` performance counters, as well as either the `ipmi` or RAPL power statistics are hardware dependent and may not be supported by certain machines.
+* Note that `perf` performance counters, as well as either the `ipmi` or RAPL power statistics are hardware dependent and may not be supported by certain machines.
 
 
 ## How to use
@@ -24,7 +24,7 @@ The `SKLearn_LinReg` and `Statsmodels_linreg` respectively can be opened, run, a
 To simply see a single training and test of a single neural network, run: `python train.py`
 
 To see some cool graphs playing around with different neural network hyperparameters, run: `python train_cool.py`
-**Note for conda users, you may need to run `conda install python.app` and then execute train_cool.py with `pythonw`
+** Note for conda users, you may need to run `conda install python.app` and then execute train_cool.py with `pythonw`
 
 ##### Contributions
 Big thanks to [tangentToNothing][2] for his contributions to the neural network

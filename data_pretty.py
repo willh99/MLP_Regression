@@ -11,8 +11,8 @@ def load_data2():
     data_normed = data / data.max(axis=0)
     y_max = data.max(axis=0)[-1]
     for i in range(data_normed.shape[0]):
-        fart = list((data_normed[i,0:-1].tolist(), [data_normed[i,-1]])) # don't mind this variable name
-        out.append(fart)
+        RItem = list((data_normed[i,0:-1].tolist(), [data_normed[i,-1]]))
+        out.append(RItem)
 
     return out, y_max
 
