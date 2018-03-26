@@ -1,4 +1,5 @@
-# Neural Networks are cool
+# Data Science and Power Performance
+### Using Neural Networks and Regression Models to predict power consumption
 
 This project contains two different data analysis techniques. 
 - A multi layer perceptron (MLP) network
