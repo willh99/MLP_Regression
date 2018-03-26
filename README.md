@@ -24,7 +24,7 @@ The `SKLearn_LinReg` and `Statsmodels_linreg` respectively can be opened, run, a
 To simply see a single training and test of a single neural network, run: `python train.py`
 
 To see some cool graphs playing around with different neural network hyperparameters, run: `python train_cool.py`
-** Note for conda users, you may need to run `conda install python.app` and then execute train_cool.py with `pythonw`
+###### ** Note for conda users, you may need to run `conda install python.app` and then execute `train_cool.py` with `pythonw`
 
 ##### Contributions
 Big thanks to [tangentToNothing][2] for his contributions to the neural network
